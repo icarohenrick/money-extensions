@@ -4,6 +4,25 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageId>IHSMoneyExtensions</PackageId>
+    <Version>1.0.0</Version>
+    <License>MIT</License>
+    <Authors>Icaro Henrique</Authors>
+    <Company>IH Tech</Company>
+    <PackageDescription>Extension to convert decimal to interger</PackageDescription>
+    <Description>Extension to convert decimal to interger</Description>
+    <PackageProjectUrl>https://github.com/icarohenrick/money-extensions</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>Icon.png</PackageIcon>
+    <PackageTags>money;int;decimal;converter</PackageTags>
+    <ReleaseNotes>New test package</ReleaseNotes>
+    <Title>IHSMoneyExtensions</Title>
+    <Summary>Extension to convert decimal to interger</Summary>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Media\Icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
 </Project>
